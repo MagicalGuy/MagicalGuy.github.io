@@ -8,6 +8,7 @@ author: HyG
 
 * content
 {:toc}
+# 转载
 
 本文将介绍如何使用 JavaScript 创建文件，并自动/手动将文件下载。这在导出原始数据时会比较方便。
 

@@ -9,6 +9,7 @@ tags: JavaScript 函数 慕课网 ife
 * content
 {:toc}
 
+# 转载
 本文为慕课网 [JavaScript深入浅出](http://www.imooc.com/learn/277) JavaScript 函数笔记。
 
 

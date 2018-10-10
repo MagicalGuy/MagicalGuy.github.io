@@ -5,8 +5,8 @@ date:   2015-07-09 00:06:05
 categories: JavaScript
 tags: JavaScript HTML CSS 思维导图 技能树
 ---
-
-做了一张思维导图。总结这几个月对 JavaScript 的学习吧，也是一个复习。也是我目前的技能树。
+# 转载
+思维导图：JavaScript技能树。
 
 
 

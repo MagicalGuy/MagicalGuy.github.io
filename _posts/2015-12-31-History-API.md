@@ -8,6 +8,7 @@ tags: JavaScript Ajax URL HistoryApi pushState pjax
 
 * content
 {:toc}
+# 转载
 
 ## 起因
 
