@@ -42,11 +42,11 @@ Redis支持数据的备份，即master-slave模式的数据备份
 /opt目录下，解压命令:tar -zxvf redis-3.0.4.tar.gz
 解压完成后出现文件夹：redis-3.0.4
 
-![redis1](http://oms5nhjmw.bkt.clouddn.com/redis3.0.4.gif)
+![redis1](https://raw.githubusercontent.com/MagicalGuy/MyBlogPicture/master/oldpicture/redis3.0.4.gif)
 
 进入目录:cd redis-3.0.4
 
-![redis2](http://oms5nhjmw.bkt.clouddn.com/jinru.gif)
+![redis2](https://raw.githubusercontent.com/MagicalGuy/MyBlogPicture/master/oldpicture/jinru.gif)
 
 在redis-3.0.4目录下执行make命令
 
@@ -58,18 +58,18 @@ gcc是linux下的一个编译程序，是C程序的编译工具。
 * 断网下安装gcc：
 分别执行如下命令
 
-![redis11](http://oms5nhjmw.bkt.clouddn.com/gcc.gif)
+![redis11](https://raw.githubusercontent.com/MagicalGuy/MyBlogPicture/master/oldpicture/gcc.gif)
 
 什么情况下需要二次make
 如果Jemalloc/jemalloc.h：没有那个文件或目录
 运行make distclean之后再make
 
-![redis3](http://oms5nhjmw.bkt.clouddn.com/makeagain.gif)
+![redis3](https://raw.githubusercontent.com/MagicalGuy/MyBlogPicture/master/oldpicture/makeagain.gif)
 
 
 Redis Test(可以不用执行)
 
-![redis4](http://oms5nhjmw.bkt.clouddn.com/maketest.gif)
+![redis4](https://raw.githubusercontent.com/MagicalGuy/MyBlogPicture/master/oldpicture/maketest.gif)
 
 
 测试需要安装TCL
@@ -80,17 +80,17 @@ Redis Test(可以不用执行)
 
 联网安装TCL
 
-![TCL](http://oms5nhjmw.bkt.clouddn.com/tcl.gif)
+![TCL](https://raw.githubusercontent.com/MagicalGuy/MyBlogPicture/master/oldpicture/tcl.gif)
 
 
 如果make完成后继续执行make install
 
-![redis5](http://oms5nhjmw.bkt.clouddn.com/makeinstall.gif)
+![redis5](https://raw.githubusercontent.com/MagicalGuy/MyBlogPicture/master/oldpicture/makeinstall.gif)
 
 
 查看默认安装目录：usr/local/bin
 
-![redis6](http://oms5nhjmw.bkt.clouddn.com/usrlocalbin.gif)
+![redis6](https://raw.githubusercontent.com/MagicalGuy/MyBlogPicture/master/oldpicture/usrlocalbin.gif)
 
 Redis-benchmark:性能测试工具，可以在自己本子运行，看看自己本子性能如何,服务启动起来后执行
 Redis-check-aof：修复有问题的AOF文件
@@ -102,18 +102,18 @@ Redis-server：Redis服务器启动命令
 
 
 
-![redis7](http://oms5nhjmw.bkt.clouddn.com/qidong.gif)
+![redis7](https://raw.githubusercontent.com/MagicalGuy/MyBlogPicture/master/oldpicture/qidong.gif)
 
 修改redis.conf文件将里面的daemonize no 改成 yes，让服务在后台启动
 将默认的redis.conf拷贝到自己定义好的一个路径下，比如/myconf
 启动
 
-![redis12](http://oms5nhjmw.bkt.clouddn.com/qidong1.gif)
+![redis12](https://raw.githubusercontent.com/MagicalGuy/MyBlogPicture/master/oldpicture/qidong1.gif)
 
 
 连通测试
 
-![redis10](http://oms5nhjmw.bkt.clouddn.com/liantong.gif)
+![redis10](https://raw.githubusercontent.com/MagicalGuy/MyBlogPicture/master/oldpicture/liantong.gif)
 
 /usr/local/bin目录下运行redis-server，运行拷贝出存放了自定义conf文件目录下的redis.conf文件
 
@@ -121,11 +121,11 @@ Redis-server：Redis服务器启动命令
 
 helloworld例子：
 
-![redis8](http://oms5nhjmw.bkt.clouddn.com/helloworld.gif)
+![redis8](https://raw.githubusercontent.com/MagicalGuy/MyBlogPicture/master/oldpicture/helloworld.gif)
 
 关闭
 
-![redis9](http://oms5nhjmw.bkt.clouddn.com/guanbi.gif)
+![redis9](https://raw.githubusercontent.com/MagicalGuy/MyBlogPicture/master/oldpicture/guanbi.gif)
 
 单实例关闭：redis-cli shutdown
 多实例关闭，指定端口关闭:redis-cli -p 6379 shutdown
