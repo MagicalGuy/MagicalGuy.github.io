@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Dubbo整体架构设计介绍"
-date:   2016-01-02 23:12:26
+date:   2017-01-02 23:12:26
 categories: Dubbo Architecture
 tags: Dubbo Architecture
 ---
@@ -18,7 +18,7 @@ Dubbo是Alibaba开源的分布式服务框架，它最大的特点是按照分�
 
 Dubbo的总体架构，如图所示：
 
-![dubbo-architecture](http://oms5nhjmw.bkt.clouddn.com/dubbo-architecture.jpg)
+![dubbo-architecture](https://raw.githubusercontent.com/MagicalGuy/MyBlogPicture/master/oldpicture/dubbo-architecture.jpg)
 
 
 Dubbo框架设计一共划分了10个层，而最上面的Service层是留给实际想要使用Dubbo开发分布式服务的开发者实现业务逻辑的接口层。
@@ -86,7 +86,7 @@ Transport层只负责单向消息传输，是对Mina、Netty、Grizzly的抽象�
 ### 服务调用
 
 下面从Dubbo官网直接拿来，看一下基于RPC层，服务提供方和服务消费方之间的调用关系，如图所示：
-![relation](http://oms5nhjmw.bkt.clouddn.com/dubbo-relation.jpg)
+![relation](https://raw.githubusercontent.com/MagicalGuy/MyBlogPicture/master/oldpicture/dubbo-relation.jpg)
 
 上图中，蓝色的表示与业务有交互，绿色的表示只对Dubbo内部交互。上述图所描述的调用流程如下：
 
@@ -94,16 +94,16 @@ Transport层只负责单向消息传输，是对Mina、Netty、Grizzly的抽象�
 * 服务消费方从服务注册中心订阅服务；
 * 服务消费方调用已经注册的可用服务
 接着，将上面抽象的调用流程图展开，详细如图所示：
-![extension](http://oms5nhjmw.bkt.clouddn.com/dubbo-extension.jpg)
+![extension](https://raw.githubusercontent.com/MagicalGuy/MyBlogPicture/master/oldpicture/dubbo-extension.jpg)
 
 ### 注册/注销服务
 服务的注册与注销，是对服务提供方角色而言，那么注册服务与注销服务的时序图，如图所示：
-![export](http://oms5nhjmw.bkt.clouddn.com/dubbo-export.jpg)
+![export](https://raw.githubusercontent.com/MagicalGuy/MyBlogPicture/master/oldpicture/dubbo-export.jpg)
 
 ### 服务订阅/取消
 为了满足应用系统的需求，服务消费方的可能需要从服务注册中心订阅指定的有服务提供方发布的服务，在得到通知可以使用服务时，
 就可以直接调用服务。反过来，如果不需要某一个服务了，可以取消该服务。下面看一下对应的时序图，如图所示：
-![refer](http://oms5nhjmw.bkt.clouddn.com/dubbo-refer.jpg)
+![refer](https://raw.githubusercontent.com/MagicalGuy/MyBlogPicture/master/oldpicture/dubbo-refer.jpg)
 
 ### 协议支持
 Dubbo支持多种协议，如下所示：
@@ -120,7 +120,7 @@ Dubbo支持多种协议，如下所示：
 
 ### 参考补充
 Dubbo以包结构来组织各个模块，各个模块及其关系，如图所示：
-![modules](http://oms5nhjmw.bkt.clouddn.com/dubbo-modules.jpg)
+![modules](https://raw.githubusercontent.com/MagicalGuy/MyBlogPicture/master/oldpicture/dubbo-modules.jpg)
 
 
 可以通过Dubbo的代码（使用Maven管理）组织，与上面的模块进行比较。简单说明各个包的情况：
