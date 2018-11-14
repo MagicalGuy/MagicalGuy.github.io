@@ -32,7 +32,7 @@ tags: MyBatis Spring SpringMVC 整合
 * spring/ applicationContext- dao.xml---spring和mybatis整合的配置（SqlSessionFactory、mapper配置）
 * spring/ applicationContext-service.xml---配置业务接口
 
-![整合](http://oms5nhjmw.bkt.clouddn.com/spring_mybatis_springmvc.jpg)
+![整合](https://raw.githubusercontent.com/MagicalGuy/MyBlogPicture/master/oldpicture/spring_mybatis_springmvc.jpg)
 
 ### 整合步骤：
 1. 整合持久层

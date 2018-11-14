@@ -9,24 +9,24 @@ tags: GIT SVN CVS
 * content
 {:toc}
 
-#转载
+# 转载
 
-##Git的安装与基本使用
+## Git的安装与基本使用
 
-![git1](http://oms5nhjmw.bkt.clouddn.com/git1.jpg)
-![git2](http://oms5nhjmw.bkt.clouddn.com/git2.jpg)
-![git3](http://oms5nhjmw.bkt.clouddn.com/git3.jpg)
-![git4](http://oms5nhjmw.bkt.clouddn.com/git4.jpg)
-![git5](http://oms5nhjmw.bkt.clouddn.com/git5.jpg)
-![git6](http://oms5nhjmw.bkt.clouddn.com/git6.jpg)
-![git7](http://oms5nhjmw.bkt.clouddn.com/git7.jpg)
-![git8](http://oms5nhjmw.bkt.clouddn.com/git8.jpg)
-![git9](http://oms5nhjmw.bkt.clouddn.com/git9.jpg)
-![git10](http://oms5nhjmw.bkt.clouddn.com/git10.jpg)
-![git11](http://oms5nhjmw.bkt.clouddn.com/git11.jpg)
-![git12](http://oms5nhjmw.bkt.clouddn.com/git12.jpg)
-![git13](http://oms5nhjmw.bkt.clouddn.com/git13.jpg)
-![git14](http://oms5nhjmw.bkt.clouddn.com/git14.jpg)
-![git15](http://oms5nhjmw.bkt.clouddn.com/git15.jpg)
-![git16](http://oms5nhjmw.bkt.clouddn.com/git16.jpg)
-![git17](http://oms5nhjmw.bkt.clouddn.com/git17.jpg)
+![git1](https://raw.githubusercontent.com/MagicalGuy/MyBlogPicture/master/oldpicture/git1.jpg)
+![git2](https://raw.githubusercontent.com/MagicalGuy/MyBlogPicture/master/oldpicture/git2.jpg)
+![git3](https://raw.githubusercontent.com/MagicalGuy/MyBlogPicture/master/oldpicture/git3.jpg)
+![git4](https://raw.githubusercontent.com/MagicalGuy/MyBlogPicture/master/oldpicture/git4.jpg)
+![git5](https://raw.githubusercontent.com/MagicalGuy/MyBlogPicture/master/oldpicture/git5.jpg)
+![git6](https://raw.githubusercontent.com/MagicalGuy/MyBlogPicture/master/oldpicture/git6.jpg)
+![git7](https://raw.githubusercontent.com/MagicalGuy/MyBlogPicture/master/oldpicture/git7.jpg)
+![git8](https://raw.githubusercontent.com/MagicalGuy/MyBlogPicture/master/oldpicture/git8.jpg)
+![git9](https://raw.githubusercontent.com/MagicalGuy/MyBlogPicture/master/oldpicture/git9.jpg)
+![git10](https://raw.githubusercontent.com/MagicalGuy/MyBlogPicture/master/oldpicture/git10.jpg)
+![git11](https://raw.githubusercontent.com/MagicalGuy/MyBlogPicture/master/oldpicture/git11.jpg)
+![git12](https://raw.githubusercontent.com/MagicalGuy/MyBlogPicture/master/oldpicture/git12.jpg)
+![git13](https://raw.githubusercontent.com/MagicalGuy/MyBlogPicture/master/oldpicture/git13.jpg)
+![git14](https://raw.githubusercontent.com/MagicalGuy/MyBlogPicture/master/oldpicture/git14.jpg)
+![git15](https://raw.githubusercontent.com/MagicalGuy/MyBlogPicture/master/oldpicture/git15.jpg)
+![git16](https://raw.githubusercontent.com/MagicalGuy/MyBlogPicture/master/oldpicture/git16.jpg)
+![git17](https://raw.githubusercontent.com/MagicalGuy/MyBlogPicture/master/oldpicture/git17.jpg)
